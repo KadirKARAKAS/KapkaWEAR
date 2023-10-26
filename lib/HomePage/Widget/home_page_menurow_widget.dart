@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kapkawear/Utils/constant.dart';
 
 class HomePageMenuRowWidget extends StatelessWidget {
   const HomePageMenuRowWidget({Key? key}) : super(key: key);
@@ -8,11 +9,12 @@ class HomePageMenuRowWidget extends StatelessWidget {
     return Row(
       children: [
         containerMenuWidget("Trendler", () {
-          print("Trendler tıklandı");
+          orangeMenuValue = true;
+          print("Trendler tıklandı,");
         }),
         const SizedBox(width: 10),
         containerMenuWidget("Hoodie", () {
-          print("Hoodie tıklandı");
+          print("Hoodie tıklandı,");
         }),
         const SizedBox(width: 10),
         containerMenuWidget("T-shirt", () {
