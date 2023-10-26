@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             homePageTopWidget(),
-            const SizedBox(height: 16),
+            const SizedBox(height: 7),
             const HomePageSearchContainerWidget(),
             const SizedBox(height: 10),
             const HomePageMenuRowWidget(),
@@ -45,12 +45,6 @@ class _HomePageState extends State<HomePage> {
         const SizedBox(
           width: 50,
           height: 90,
-          child: Align(
-              alignment: Alignment.bottomCenter,
-              child: Icon(
-                Icons.settings,
-                size: 33,
-              )),
         )
       ],
     );
