@@ -13,18 +13,16 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
-          child: Column(
-            children: [
-              homePageTopWidget(),
-              const SizedBox(height: 16),
-              const HomePageSearchContainerWidget(),
-              const SizedBox(height: 10),
-              const HomePageMenuRowWidget(),
-            ],
-          ),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 20),
+        child: Column(
+          children: [
+            homePageTopWidget(),
+            const SizedBox(height: 16),
+            const HomePageSearchContainerWidget(),
+            const SizedBox(height: 10),
+            const HomePageMenuRowWidget(),
+          ],
         ),
       ),
     );
