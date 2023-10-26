@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kapkawear/SettingsPage/Page/settingspage.dart';
 
 class HomePageSearchContainerWidget extends StatelessWidget {
   const HomePageSearchContainerWidget({Key? key});
@@ -10,7 +11,7 @@ class HomePageSearchContainerWidget extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(top: 7),
           child: Container(
-            width: 300,
+            width: 325,
             height: 30,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(6),
@@ -33,6 +34,20 @@ class HomePageSearchContainerWidget extends StatelessWidget {
               ),
             ),
           ],
+        ),
+        InkWell(
+          onTap: () {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => SettingsPage(),
+                ));
+          },
+          child: const Padding(
+              padding: EdgeInsets.only(top: 9),
+              child: Align(
+                  alignment: Alignment.centerRight,
+                  child: Icon(Icons.settings))),
         ),
       ],
     );

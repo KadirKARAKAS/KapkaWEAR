@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 15),
         child: Column(
           children: [
             homePageTopWidget(),
@@ -29,20 +29,20 @@ class _HomePageState extends State<HomePage> {
   }
 
   Row homePageTopWidget() {
-    return Row(
+    return const Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const SizedBox(width: 50),
-        Container(
+        SizedBox(width: 50),
+        SizedBox(
           height: 90,
-          child: const Align(
+          child: Align(
               alignment: Alignment.bottomCenter,
               child: Text(
                 "Kapka Wear",
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.w600),
               )),
         ),
-        const SizedBox(
+        SizedBox(
           width: 50,
           height: 90,
         )
