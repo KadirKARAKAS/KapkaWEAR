@@ -1,27 +1,35 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 class HomePageMenuRowWidget extends StatelessWidget {
   const HomePageMenuRowWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        shrinkWrap: true,
-        itemCount: 4,
-        itemBuilder: (context, index) {
-          return containerMenuWidget("deneme", index);
-        },
-      ),
+    return Row(
+      children: [
+        containerMenuWidget("Trendler", () {
+          print("Trendler tıklandı");
+        }),
+        const SizedBox(width: 10),
+        containerMenuWidget("Hoodie", () {
+          print("Hoodie tıklandı");
+        }),
+        const SizedBox(width: 10),
+        containerMenuWidget("T-shirt", () {
+          print("T-shirt tıklandı");
+        }),
+        const SizedBox(width: 10),
+        containerMenuWidget("Eşofman", () {
+          print("Eşofman tıklandı");
+        }),
+      ],
     );
   }
 
-  Widget containerMenuWidget(String text1, int index) {
+  Widget containerMenuWidget(String text1, Function onTap) {
     return InkWell(
       onTap: () {
-        print(index);
+        onTap();
       },
       child: Container(
         width: 65,
@@ -30,7 +38,8 @@ class HomePageMenuRowWidget extends StatelessWidget {
           borderRadius: BorderRadius.circular(3),
           color: Colors.orange,
         ),
-        child: Center(
+        child: Align(
+          alignment: Alignment.center,
           child: Text(
             text1,
             style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
