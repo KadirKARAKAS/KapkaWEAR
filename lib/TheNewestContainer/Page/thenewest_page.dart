@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kapkawear/TheNewestContainer/Widget/product_image_container_widget.dart';
+import 'package:kapkawear/TheNewestContainer/Widget/r%C4%B1ck_and_morty_product.dart';
 import 'package:kapkawear/TheNewestContainer/Widget/thenewest_text_widget.dart';
 
 class TheNewestPage extends StatelessWidget {
@@ -17,7 +17,7 @@ class TheNewestPage extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             itemCount: 5,
             itemBuilder: (context, index) {
-              return const ProductImageContainer();
+              return RickAndMortyProduct();
             },
           ),
         ),

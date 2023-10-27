@@ -36,7 +36,7 @@ class CouponRainContainerWidget extends StatelessWidget {
           ),
         ),
         const Padding(
-          padding: const EdgeInsets.only(right: 35, top: 8),
+          padding: EdgeInsets.only(right: 35, top: 8),
           child: Align(
             alignment: Alignment.centerRight,
             child: Image(
