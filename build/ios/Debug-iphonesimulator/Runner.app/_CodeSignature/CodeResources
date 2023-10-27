@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		ntb70hKSpMKnMHqH2rSQ1zaJf+U=
+		s8q55ZWlBGZ9jpK/fCZk27z6Q40=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		tgv98tiZdPVFpFRfh/BQBB4kjNw=
+		q+Ec/lSs+Gj2VTXfErIoL8O3XOU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		J5Y7pF8KVDESjpI4dzX+s6pKRo0=
+		rBorBZcBiQv7pgNlB/hroY10Ehc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		zvh0w8eehawbpsNtFqR0Kn9dD3c=
+		lNipLEaiYyejlGlSnKD17Bhp+yg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -72,9 +72,21 @@
 		<data>
 		Kz80zpjyCpm7j/msjFhVlxKua/Q=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/WheelofFortune.png</key>
+		<data>
+		AcV2A75ax1I125c1PiaQhjBww2c=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/search.png</key>
 		<data>
 		K990c803AG+7Ye98uUp3OUuKoOc=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/sirtejderha.jpg</key>
+		<data>
+		v1mMKLj+qiBmYbFBbNCHNCjb4yQ=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/sss.jpg</key>
+		<data>
+		+h7JNJ2L7TYfqc7yPbgtgNrLIbY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -86,7 +98,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		9rGCNvQYRuB3rRez8X+jC2mgCOI=
+		02tw1OJY44IObjeLosFEbCLwKX4=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -581,7 +593,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			InYSRMDbiyKPMSy5Be6K/ns5N029DTYq1seTsuldZLU=
+			qfQTarvW7cuZw1xk7JkS2JEEhuOq3T4VKeScNT5J6VM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -595,21 +607,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JIsNSmsAmuse0BYNv5I1+dEhe0WnK3uKpckd6rnQn+g=
+			SeZ6nn1AWFGcrdDdvxmu9NJjwbvg4WNUX43hSq8Sidg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r/9ubjSzz3TvWS8tlb0FwB+KJF0pr0sIWnv74F8LJ1k=
+			OQjdJ8LtYixp8KLtqQGJGQOpj3A0Lr6UsZmhCThJg/8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1WsQHR1Xu68pj62KERn2FZ8HZRt6N2aK4WkzkYi/fR8=
+			2fX3Yg5gRYOga+cyyoov0Dpw/UzrxM7N8ZOhXGyvIHw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -626,11 +638,32 @@
 			zUZPGBRocmGb6eYoj3IVYhpBFFK3ciyHLEI6TqvECys=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/WheelofFortune.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F5Rf+qVPwAZquCw8arp4FuGbQOfv5Vsbl55QhBlgnIk=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/search.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Z9InC5e7foTIBhN8ettei9b4bOg/imouVFxsaQHFbdI=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/sirtejderha.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UYge5RjldPsWq3FJLVVQftqWhA3VFa90UAod1Ve1XrE=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/sss.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MRggxb65C1mgmGNENopmEWCJdvPUA5vny6Vp80T2q80=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -651,7 +684,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ypp4720zbqHNsrW+3KsP6NaVcgU5kSxS/m2ljgiTf/E=
+			4em7F7dfN78R9kEQQNr9iP+qsYBMLl9vKKaZD1faAko=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

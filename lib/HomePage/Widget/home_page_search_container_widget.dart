@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:kapkawear/SettingsPage/Page/settingspage.dart';
 
 class HomePageSearchContainerWidget extends StatelessWidget {
   const HomePageSearchContainerWidget({Key? key});
