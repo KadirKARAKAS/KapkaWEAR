@@ -35,7 +35,11 @@ class HomePageSearchContainerWidget extends StatelessWidget {
             ),
           ],
         ),
-        InkWell(
+      ],
+    );
+  }
+}
+/*InkWell(
           onTap: () {
             Navigator.push(
                 context,
@@ -49,7 +53,4 @@ class HomePageSearchContainerWidget extends StatelessWidget {
                   alignment: Alignment.centerRight,
                   child: Icon(Icons.settings))),
         ),
-      ],
-    );
-  }
-}
+        */

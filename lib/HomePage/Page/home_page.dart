@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:kapkawear/BestSellers/Page/best_sellers_page.dart';
+import 'package:kapkawear/CouponRain/Page/coupon_rain_page.dart';
 import 'package:kapkawear/HomePage/Widget/home_page_menurow_widget.dart';
 import 'package:kapkawear/HomePage/Widget/home_page_search_container_widget.dart';
 import 'package:kapkawear/TheNewestContainer/Page/thenewest_page.dart';
@@ -26,7 +28,11 @@ class _HomePageState extends State<HomePage> {
               const SizedBox(height: 10),
               const HomePageMenuRowWidget(),
               const SizedBox(height: 15),
-              const TheNewestPage()
+              const TheNewestPage(),
+              const SizedBox(height: 20),
+              const CouponRainPage(),
+              const SizedBox(height: 10),
+              const BestSellersPage(),
             ],
           ),
         ),
